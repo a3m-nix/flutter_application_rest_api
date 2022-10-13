@@ -9,7 +9,7 @@ class StudentFormController extends GetxController {
   TextEditingController txtNim = TextEditingController();
   var isLoading = false.obs;
 
-  void tambahData() {
+  void addData() {
     isLoading.value = true;
     String nama = txtNama.text;
     String kelas = txtKelas.text;

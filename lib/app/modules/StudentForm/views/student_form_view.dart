@@ -63,7 +63,7 @@ class StudentFormView extends GetView<StudentFormController> {
                       children: [CircularProgressIndicator()],
                     )
                   : ElevatedButton(
-                      onPressed: controller.tambahData,
+                      onPressed: () => controller.addData(),
                       child: Text('Tambah'),
                     ),
             ),
